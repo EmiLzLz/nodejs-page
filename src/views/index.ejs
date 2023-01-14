@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%- include("partials/head") %>
+    <title><% title %></title>
+  </head>
+  <body>
+    <div class="main-container main-bg vh-100 d-flex flex-column justify-content-between">
+      <%- include("partials/navigation") %>
+      <main>
+        <div class="container-lg w-100 vh-100 d-flex align-items-center justify-content-start p-3">
+          <div class="presentation w-50 d-flex flex-column align-items-center justify-content-center gap-2 text-center">
+            <h1 class="fw-bold">FURNITURE SHOP</h1>
+            <p class="fs-5">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur officiis, praesentium aliquid nihil modi quos eius voluptas dolorum? Iste deserunt unde cupiditate sit delectus, repellat provident aspernatur eaque pariatur ab. repellat provident aspernatur eaque pariatur ab. praesentium aliquid nihil modi quos eius voluptas dolorum?
+            </p>
+            <div class="options d-flex flex-column flex-md-row align-items-center justify-content-center gap-5 w-100">
+              <button class="myBtn primaryBtn">LOG IN</button>
+              <button class="myBtn primaryBtn">SIGN UP</button>
+            </div>
+          </div>
+        </div>
+      </main>    
+      <%- include("partials/footer") %>
+    </div>
+    <%- include("partials/foot") %>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <%- include("partials/head") %>
+    <title><% title %></title>
+  </head>
+  <body>
+    <div class="main-container vh-100">
+      <%- include("partials/navigation") %>
+      <div
+        class="categories-bg h-auto d-flex flex-column align-items-center "
+      >
+        <div class="categories-container vh-100 container-fluid d-flex flex-column align-items-center justify-content-around position-static">
+          <h1 class="fw-bold">OUR SPECIALITY</h1>
+          <div
+            class="categories w-100 d-flex flex-wrap justify-content-around gap-3"
+          >
+            <div
+              class="category d-flex flex-column align-items-center gap-3 p-5"
+            >
+              <div>
+                <img src="/images/Armchair-PNG-Picture.png" alt="armchair" />
+              </div>
+              <h3>Armchair</h3>
+            </div>
+            <div
+              class="category d-flex flex-column align-items-center gap-3 p-5"
+            >
+              <div>
+                <img src="/images/bed.png" alt="bed" />
+              </div>
+              <h3>Bed</h3>
+            </div>
+            <div
+              class="category d-flex flex-column align-items-center gap-3 p-5"
+            >
+              <div>
+                <img src="/images/Dining-Table-Transparent.png" alt="Dtable" />
+              </div>
+              <h3>Dining Table</h3>
+            </div>
+            <div
+              class="category d-flex flex-column align-items-center gap-3 p-5"
+            >
+              <div>
+                <img src="/images/Cupboard-Furniture-PNG.png" alt="cupboard" />
+              </div>
+              <h3>Cupboard</h3>
+            </div>
+          </div>
+        </div>
+        <button class="myBtn secondaryBtn d-flex align-items-center justify-content-center gap-3 my-5">SEE ALL CATEGORIES <iconify-icon icon="carbon:next-outline" style="color: white;" width="30"></iconify-icon></button>
+      </div>
+      <%- include("partials/footer") %>
+    </div>
+    <%- include("partials/foot") %>
+  </body>
+</html>
