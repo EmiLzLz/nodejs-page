@@ -26,3 +26,9 @@ That's why I added the following images
 
 
 ![Image text](https://i.ibb.co/mSgvjr3/nodejs3.png)
+
+
+Technologies
+- Nodejs
+- Javascript
+- Bootstrap
